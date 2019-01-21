@@ -1,8 +1,12 @@
 ### Installation Guide
 
-1. Install dependencies of c++ component:
-`
-sudo apt-get install libopenal1 libopenal-dev libsndfile-dev libmpg123-dev libmpg123 libfontconfig-dev
+#### System
+- Ubuntu 16.04
+- Ruby 2.5.0
 
-2. Install gosu using `gem install gosu`
-`
+#### Environment Setup
+1. Install dependencies of c++ component:
+~~~bash
+sudo apt-get install libopenal1 libopenal-dev libsndfile-dev libmpg123-dev libmpg123 libfontconfig-dev
+~~~
+2 Install gosu using `gem install gosu`
